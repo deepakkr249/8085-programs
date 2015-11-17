@@ -1,0 +1,7 @@
+LXI H,0000H
+MOV A,M
+INX H
+SUB M
+INX H
+MOV M,A
+hlt
